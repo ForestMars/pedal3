@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "name": "User",
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "required": true,
+          "description": "Unique identifier"
+        },
+        {
+          "name": "username",
+          "type": "string",
+          "required": true,
+          "description": "User name"
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "required": true,
+          "description": "Email address"
+        },
+        {
+          "name": "age",
+          "type": "number",
+          "required": false,
+          "description": "Age in years"
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "required": true,
+          "description": "Unique identifier"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": true,
+          "description": "Product name"
+        },
+        {
+          "name": "price",
+          "type": "number",
+          "required": true,
+          "description": "Product price"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": false,
+          "description": "Product description"
+        }
+      ]
+    }
+  ],
+  "description": "Sample e-commerce system"
+}
